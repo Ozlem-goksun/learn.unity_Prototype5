@@ -37,7 +37,7 @@ public class Target : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(gameManager.isGameActive)
+        if(gameManager.isGameActive && !gameManager.paused)
         {
             Destroy(gameObject);
             Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
@@ -49,7 +49,12 @@ public class Target : MonoBehaviour
     {
         Destroy(gameObject);
 
-        if(!gameObject.CompareTag("Bad"))
+        if(!gameObject.CompareTag("Bad") && gameManager.lives > 0)
+        {
+            gameManager.lives--;
+            gameManager.livesText.text = "Lives : " + gameManager.lives;
+        }
+        if(!gameObject.CompareTag("Bad") && gameManager.lives == 0)
         {
             gameManager.GameOver();
         }
