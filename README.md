@@ -1,7 +1,7 @@
 # [Unity Learn](https://learn.unity.com)/[Junior Programmer Pathway](https://learn.unity.com/pathway/junior-programmer)/[UNIT 5](https://learn.unity.com/project/unit-5-user-interface?uv=2022.3&pathwayId=5f7e17e1edbc2a5ec21a20af&missionId=5f7648a4edbc2a5578eb67df) </br>
 
 ## Prototype 5
-<p><i>This prototype is the last example in the tutorial offered by "learn.unity". You can explode the objects randomly popping out from below by moving the cursor while right clicking.</i></p>
+<p>This prototype is the last example in the tutorial offered by <i>"[learn.unity](https://learn.unity.com)"</i>. You can explode the objects randomly popping out from below by moving the cursor while right clicking.</p>
 <p>But watch out skulls and falling objects!!!</p></br>
 
 ### To try out this bomby game, click on the GIF below.
